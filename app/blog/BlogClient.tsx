@@ -106,7 +106,7 @@ export default function BlogClient() {
                   exit={{ opacity: 0, scale: 0.95 }}
                   whileHover={{ 
                     y: -8,
-                    shadow: "0px 35px 60px -20px rgba(18, 65, 112, 0.15)"
+                    boxShadow: "0px 35px 60px -20px rgba(18, 65, 112, 0.15)"
                   }}
                   transition={{ type: "spring", stiffness: 240, damping: 22 }}
                   className="group bg-white border-2 border-[#124170]/10 rounded-[2rem] rounded-tr-[4.5rem] p-7 flex flex-col justify-between h-[380px] cursor-pointer relative overflow-hidden z-10 transition-all duration-300"

@@ -128,8 +128,7 @@ export default function ProjectsClient() {
                 whileHover={{ 
                   rotate: -5, // FIXED: 3D टिल्ट हटाकर 10 डिग्री रोटेशन सेट कर दिया है
                   scale: 0.98,
-                  shadow: "0px 25px 35px -10px rgba(18, 65, 112, 0.12)"
-                }}
+boxShadow: "0px 25px 35px -10px rgba(18, 65, 112, 0.12)"                }}
                 transition={{ type: "spring", stiffness: 200, damping: 25 }}
                 key={project.id}
                 className="group bg-white border-2 border-[#124170]/10 rounded-[2.5rem] overflow-hidden shadow-[rgba(18,65,112,0.03)_0px_20px_25px_-5px] transition-all duration-300 flex flex-col justify-between relative z-10 origin-center"

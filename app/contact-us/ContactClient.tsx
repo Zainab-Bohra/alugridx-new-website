@@ -65,8 +65,7 @@ export default function ContactClient() {
                     initial={{ opacity: 0, y: 15 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.4, delay: i * 0.05 }}
-                    whileHover={{ y: -6, shadow: "0px 20px 30px -10px rgba(18, 65, 112, 0.08)" }}
-                    key={i}
+whileHover={{ y: -6, boxShadow: "0px 20px 30px -10px rgba(18, 65, 112, 0.1)" }}                    key={i}
                     className="bg-white border-2 border-[#124170]/10 p-5 rounded-3xl relative overflow-hidden transition-all duration-300 group hover:border-[#67C090]/40"
                   >
                     <div className="w-9 h-9 bg-[#DDF4E7] text-[#124170] rounded-xl flex items-center justify-center mb-4 transition-colors group-hover:bg-[#124170] group-hover:text-white">
