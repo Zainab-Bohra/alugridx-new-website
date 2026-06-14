@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.alugridx.com/sitemap.xml
+Host: https://www.alugridx.com
