@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Mail, FileText, Send, CheckCircle, Clock, Tag, Heading, Key, ArrowUpRight, MonitorEye, LayoutGrid, Terminal } from "lucide-react";
+import { Mail, FileText, Send, CheckCircle, Clock, Tag, Heading, Key, ArrowUpRight, Monitor, LayoutGrid, Terminal } from "lucide-react";
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL;
 
@@ -173,7 +173,7 @@ export default function BlogAdmin() {
           {/* RIGHT COMMAND NODE: STICKY ASYMMETRIC LIVE ARTWORK LAYOUT (Takes 5 Columns) */}
           <div className="lg:col-span-5 sticky top-32 space-y-4">
             <div className="flex items-center gap-2 text-[10px] font-mono font-bold text-[#26667F] uppercase tracking-widest px-1">
-              <MonitorEye size={14} className="text-[#67C090]" />
+              <Monitor size={14} className="text-[#67C090]" />
               <span>Real-Time Production Output</span>
             </div>
 
